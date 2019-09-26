@@ -3,7 +3,6 @@ article {
     background-color: rgb(223, 233, 243);
 }
 
-
 article h1 {
     color: green;
 }
@@ -12,12 +11,10 @@ article h2 {
     color: blue;
 }
 
-
 img {
     width: 200px;
 }
 
-#Intel
-{
-   width: 200px;
+#Intel {
+    width: 200px;
 }
