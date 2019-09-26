@@ -1,39 +1,75 @@
 #cpu {
-    left: 100px;
-    top: 50px;
-    background-color: bisque;
+    left: 350px;
+    top: 150px;
+    background-color: #FFF2E5;
     width: 350px;
     height: 350px;
-    border: solid black 2px;
+    border: solid black 3px;
     border-radius: 10px;
 }
 
 #controll {
-
+    left: 110px;
+    width: 120px;
+    height: 70px;
+    top: 40px;
+    background-color: lightblue;
+    border: solid black 2px;
 }
 
 #processor {
-
+    left: 70px;
+    top: 130px;
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFCC;
+    border-radius: 10px;
+    border: solid black 3px;
 }
 
 #registers {
-
+    top: 31px;
+    background-color: #99CCFF;
+    width: 120px;
+    height: 60px;
+    left: 40px;
+    border: solid black 2px;
 }
 
 #alu {
-
+    background-color: #99CCFF;
+    width: 120px;
+    height: 80px;
+    top: 105px;
+    left: 40px;
+    border: solid black 2px;
 }
 
 #memory {
-
+    top: 540px;
+    background-color: #99CCFF;
+    left: 460px;
+    width: 120px;
+    height: 70px;
+    border: solid black 2px;
 }
 
 #input {
-
+    background-color: #99CCFF;
+    left: 220px;
+    top: 400px;
+    width: 90px;
+    height: 70px;
+    border: solid black 2px;
 }
 
 #output {
-
+    background: #99CCFF;
+    left: 740px;
+    top: 400px;
+    width: 90px;
+    height: 70px;
+    border: solid black 2px;
 }
 
 .firkant {
@@ -44,3 +80,47 @@
     height: 100px;
     background-color: green;
 }
+
+p {
+    text-align: center;
+}
+
+#posisjon {
+    position: absolute;
+    top: -10px;
+    left: 70px;
+}
+
+.pil {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0;
+    right: 0;
+}
+
+.oh {
+    border-top: solid 2px red;
+    border-right: solid 2px red;
+}
+
+div.pil:nth-child(1) {
+left: 585px;
+top: 230px;
+width: 200px;
+height: 170px;
+}
+
+.ov {
+    border-top: solid 2px red;
+    border-left: solid 2px red;
+}
+
+
+
+div.pil:nth-child(2) {
+    left: 263px;
+    top: 230px;
+    width: 200px;
+    height: 170px;
+    }
