@@ -10,8 +10,19 @@
 </head>
 
 <body>
+    <script>
+    e.target.style.display = "none";
+    </script>
+    
+    <script>
+        function helpme() {
+            alert("HELP ME")
+            document.location.href = "https://vg.no";
+        }
+        </script>
     <header>
         <h1>Datamaskinens oppbygging og virkemåte</h1>
+          <button onclick="helpme()>helpme" unmouseover="hide()">Helpme</button>  
     </header>
     <main>
         <article>
@@ -34,7 +45,7 @@
                         For 5-6 år siden var standar størrelse 32 bit (tall på 4294967296) <br>
                         Dagens CPUer er 64bit.
                         Dagens CPU kan jobbe med tall på 2^64 = 18446744073709551616 <br>
-                    
+
                         <div>
                             <img id="Intel" src="Intel.jpg" alt="Intel">
                         </div>
@@ -44,10 +55,10 @@
                         <p>
                             AMD (Advanced Micro Devices) laget sin første CPU 8080 AM9080ADC <br>
                             (En kopi av intel 8080) <br>
-                        <div>
-                            <img src="AMD.jpg" alt="AMD">
-                        </div>
-                        
+                            <div>
+                                <img src="AMD.jpg" alt="AMD">
+                            </div>
+
                         </p>
                         <h2>ARM</h1>
                             <p>
@@ -56,11 +67,11 @@
                                 Hver instruksjon skal ta minst mulig tid. <br>
                                 Kompliserte beregninger består av mange instrusksjoner. <br>
                                 Brukes i mobiler (nesten alle?)
-                            
-                            <div>
-                                <img src="ARM.jpg" alt="ARM">
-                            </div>
-                            
+
+                                <div>
+                                    <img src="ARM.jpg" alt="ARM">
+                                </div>
+
                             </p>
 
             </div>
