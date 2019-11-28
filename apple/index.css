@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  min-width: 1000px;
 }
 
 ul.topnav {
@@ -45,16 +44,22 @@ ul.topnav li.right {
 #top {
   height: 90vh;
   background-color: black;
+  overflow: hidden;
+  width: 100%;
 }
 
 #mid {
   height: 100vh;
   background-color: white;
+  overflow: hidden;
+  width: 100%;
 }
 
 #bot {
   height: 100vh;
   background-color: rgb(223, 215, 215);
+  overflow: hidden;
+  width: 100%;
 }
 
 #top>a {
@@ -101,27 +106,32 @@ body {
 #watch {
   height: 80vh;
   background-color: aliceblue;
+  overflow: hidden;
 }
 
 #omapple {
   height: 80vh;
+  overflow: hidden;
 }
 
 #kontaktoss {
   height: 40vh;
   background-color: black;
+  overflow: hidden;
 }
 
 #mac {
   position: absolute;
   width: 100%;
   top: 105%;
+  overflow: hidden;
 }
 
 #ipadp {
   position: absolute;
   top: 173%;
   right: 20%;
+  overflow: hidden;
 }
 
 
@@ -129,6 +139,7 @@ body {
   position: absolute;
   top: 300%;
   right: 35%;
+  overflow: hidden;
 }
 
 
@@ -137,6 +148,7 @@ body {
   font-size: 50px;
   right: 45%;
   position: absolute;
+  overflow: hidden;
 }
 
 
@@ -145,4 +157,5 @@ body {
   right: 50%;
   top: 393vh;
   width: 150px;
+  overflow: hidden;
 }
